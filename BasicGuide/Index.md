@@ -1,19 +1,23 @@
 
-# [Erlang程序设计] - 知识体系规划v1 - 入门基础部分
 
-## 1. Erlang语言简介
+# [Erlang/OTP程序设计] - 知识体系规划v1 - 入门基础部分
 
-### 1.1 Erlang语言开发历史
+## 1. Erlang编程语言简介
 
-介绍Erlang语言的开发演进历史，以便学院了解Erlang语言设计目的，要解决的目标问题，简单的对比Ruby等其他语言的历史。
+### 1.1 Erlang编程语言历史(8-10分钟)
+
+介绍Erlang语言的开发演进历史，以便学员了解Erlang语言设计目的，要解决的问题，简单的对比Ruby等其他语言的历史。
 
 爱立信、Joe Armstrong、爱立信项目、多核心CPU诞生、互联网应用等。
 
-### 1.2 Erlang语言的特点
 
- 0) Erlang语言与其他语言简单对比
+### 1.2 Erlang编程语言的特点(12分钟)
 
- 1) 函数编程, 模式匹配
+ 0) 为什么应该学习Erlang语言
+   
+ 不同的语言设计思路，与C, C++, Java, C#, PHP完全不同的设计思路。 开发生产率高。大规模连接的服务端程序设计。
+
+ 1) 函数编程, 模式匹配，尾递归
 
  2) 并发编程, 轻量进程(Process)
 
@@ -22,7 +26,6 @@
  4) 分布式编程
 
  5) 容错(Fault-Tolerant)
-
 
 ### 1.3 Erlang语言的适用项目
 
@@ -36,13 +39,6 @@
  4)移动互联网
  5)车联网
  6)工业自动化...
-
-### 1.4 为什么应该学习Erlang语言
-
- 1) 完全不同的语言设计思路
- 2) .......
- 3) 开发生产率高
- 4) .......
 
 ## 2. Erlang语言开发环境准备
 
@@ -80,7 +76,7 @@
     awesome-erlang: https://github.com/drobakowski/awesome-erlang
 
 
-## 3. Erlang语言基本概念与数据类型
+## 3. Erlang语言基本概念
 
     3.1) Hello World 
         erl shell输出
@@ -90,23 +86,27 @@
     3.2) 整数(Numbers)与简单加减乘除
 
     3.3) 变量(Variables)、一次赋值与匹配
+    
+## 4. Erlang语言与数据类型
+
         
-    3.4) 原子(Atoms)
+    4.4) 原子(Atoms)
 
-    3.5) 布尔(Boolean)与比较操作符(Comparison Operators)
+    4.5) 布尔(Boolean)与比较操作符(Comparison Operators)
 
-    3.6) Tuples
+    4.6) Tuples
      ??翻译?
 
-    3.7) 列表(Lists)
+    4.7) 列表(Lists)
 
-    3.8) Dict, Map
+    4.8) Dict, Map
 
-    3.9) Binary
+    4.9) Binary
     
     翻译?
 
-## 4. Erlang模块(Module)
+
+## 5. Erlang模块(Module)
 
     对比Java Class类文件, Erlang程序静态上由模块、函数组成
 
@@ -118,7 +118,8 @@
     Commets注释
 
 
-## 5 Erlang函数(Function)
+## 6. Erlang函数(Function)
+
     函数编程、模式匹配
     Pattern Matching
     Guards, Guards!
@@ -127,12 +128,12 @@
     BIF
     Which to use?
 
-## 6. Erlang Record与头文件
+## 7. Erlang Record与头文件
    
     Record定义和适用
     头文件定义
 
-## 7. try...catch异常处理
+## 8. try...catch异常处理
 
     case catch
     try...catch
@@ -140,7 +141,9 @@
     编程原则, 少用
     编程原则, 少用
 
-## 8. Erlang程序编译与执行
+## 9. Erlang程序编译与执行
+
+    写一个简单的Erlang程序
     erlc编译，src目录、ebin目录、include目录、priv目录
     rebar创建项目、编译
 
