@@ -3,6 +3,7 @@
 
 Erlang/OTP Programming Course for JiKeXueYuan
 
+
 ## Course
 
 BasicGuide:       Erlang程序设计基础
@@ -22,5 +23,6 @@ ProjectGuide:     Erlang典型项目介绍
 
 ## Author
 
-李枫: 杭州华思通信创始人CTO,  [emqtt](https://github.com/emqtt)开源项目开发者。
+李枫: 杭州华思通信创始人CTO,  [emqtt](https://github.com/emqtt)开源项目开发者，2007年开始从事Erlang项目开发。
+
 
